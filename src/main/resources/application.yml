@@ -1,0 +1,15 @@
+chatgpt:
+  url: ${OPENAI_URL}
+  key: ${OPENAI_KEY}
+  model: ${OPENAI_MODEL}
+  systemMessage: ${OPENAI_MESSAGE}
+  temperature: ${OPENAI_TEMPERATURE}
+  max_tokens: ${OPENAI_MAXTOKENS}
+
+chromadb:
+    url: "http://localhost:5000/collections/mygpt?query="
+
+
+server:
+  port: 80
+
